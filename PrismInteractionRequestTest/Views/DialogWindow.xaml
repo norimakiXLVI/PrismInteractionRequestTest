@@ -1,0 +1,12 @@
+﻿<Window x:Class="PrismInteractionRequestTest.Views.DialogWindow"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Window.Style>
+        <Style TargetType="{x:Type Window}">
+            <Setter Property="ResizeMode" Value="NoResize" />
+            <Setter Property="SizeToContent" Value="WidthAndHeight" />
+            <Setter Property="ShowInTaskbar" Value="False" />
+        </Style>
+    </Window.Style>
+</Window>
+
